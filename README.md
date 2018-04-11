@@ -1,6 +1,9 @@
 # local-recursive-file-sync
 A program that is capable of synchronizing data between two folders. 📁↔ 📁  
-Multiple processes are used to copy files concurrently and speed up the program.
+Multiple processes are used to copy files concurrently and speed up the program.  
+```
+pid_t pid = fork(); // Handle recursive calls for each subdirectory.
+```
 
 ## Getting Started
 

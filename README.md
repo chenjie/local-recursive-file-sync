@@ -56,7 +56,7 @@ All file contents are successfully transferred to `dest` folder.
 
 ## Thoughts and future improvements
 
-* Processes can be replaced with threads. The later ones are more light-weighted with less overheads. 
+* Processes can be replaced with [threads](http://man7.org/linux/man-pages/man7/pthreads.7.html). The later ones are more light-weighted with less overheads. 
 
 ## Contributing to this project
 
